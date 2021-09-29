@@ -30,6 +30,14 @@ public class Ex10_1 {
 				for(int s:intArr2)
 					System.out.print(s+" ");
 				System.out.println();
+				
+				//배열내의 특정 인덱스번호에 새로운 값을 저장
+				intArr2[3]=10;
+				for(int i:intArr1)
+				System.out.print(i+" ");
+				System.out.println();
+				for(int j:intArr2)
+				System.out.print(j+" ");
 		
 		
 
