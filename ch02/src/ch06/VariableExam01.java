@@ -4,6 +4,7 @@ public class VariableExam01 {
 
 	public static void main(String[] args) {
 		
+/*
 		// 10+20의 결과값 출력
 		System.out.println(10+20);
 		// 10+30의 결과값 출력
@@ -16,7 +17,15 @@ public class VariableExam01 {
 		int i=10; int j=20; int k=30;
 		
 		//40+70
-		System.out.println(j*2+(j*2+k));
+		System.out.println(j*2+(j*2+k));*/
+		
+		int lengthTop = 5;
+		           int lengthBottom = 10;
+	          int height = 7;
+		     //   double area = ((lengthTop+lengthBottom)*height/2);
+	          double area =(((double)lengthTop+lengthBottom)*height/2);
+		           System.out.println(area);
+		      
 
 	}
 

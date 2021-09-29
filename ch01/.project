@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ch01</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ch02</name>
+			<type>2</type>
+			<location>D:/JAVA_SW개발자_전문과정/강의교안/4실습실/4실습실/소스폴더/ch02</location>
+		</link>
+		<link>
+			<name>src/ch01/.classpath</name>
+			<type>1</type>
+			<location>D:/JAVA_SW개발자_전문과정/강의교안/4실습실/4실습실/소스폴더/ch01/.classpath</location>
+		</link>
+		<link>
+			<name>src/ch01/.project</name>
+			<type>1</type>
+			<location>D:/JAVA_SW개발자_전문과정/강의교안/4실습실/4실습실/소스폴더/ch01/.project</location>
+		</link>
+		<link>
+			<name>src/ch01/bin</name>
+			<type>2</type>
+			<location>D:/JAVA_SW개발자_전문과정/강의교안/4실습실/4실습실/소스폴더/ch01/bin</location>
+		</link>
+		<link>
+			<name>src/ch01/src</name>
+			<type>2</type>
+			<location>D:/JAVA_SW개발자_전문과정/강의교안/4실습실/4실습실/소스폴더/ch01/src</location>
+		</link>
+	</linkedResources>
+</projectDescription>
