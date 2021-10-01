@@ -2,5 +2,5 @@ package work;
 
 public class Octagon extends Shape {
 
-	String name="ÆÈ°¢Çü";
+	public String name="ÆÈ°¢Çü";
 }

@@ -2,5 +2,5 @@ package work;
 
 public class Pentagon extends Shape{
 	
-	String name="오각형";
+	public String name="오각형";
 }
