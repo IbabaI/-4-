@@ -2,7 +2,7 @@ package ch04_array;
 
 import java.util.Scanner;
 
-public class Exam01 {
+public class Exam02 {
 
 	public static void main(String[] args) {
 		
@@ -14,32 +14,30 @@ public class Exam01 {
 		Scanner scanner = new Scanner(System.in);
 		int cnt=0;
 		
-		//내가 푼거
+		// 선생님이 풀어준거
 		while(true) {
 			String id,pwd;
-			if(cnt==5) // 기본데이타 타입의 값 비교
-		   
-				
-		   System.out.println(cnt+"회 실패하였습니다. 프로그램을 종료 합니다");
-		   	
+			if(cnt==5) {// 기본데이타 타입의 값 비교 , 5회 해보고 브레이크
+		      System.out.println(++cnt +"회 실패하였습니다. 프로그램을 종료 합니다");
+			  break;
+			}
+			
 		   System.out.println("아이디와 패스워드를 입력하세요.");
 		   System.out.println("아이디>");
-		   id=scanner.next();
+		   id=scanner.next(); //String타입으로 전달
 		   
 		   System.out.println("패스워드>");
-		   pwd=scanner.next();
-		   
-				 if("hong".equals(id) && "1234".equals(pwd)) { //참조객체의 비교 와 논리곱
+		   pwd=scanner.next();//String타입으로 전달
+		   if("hong".equals(id) && "1234".equals(pwd)) { //참조객체의 비교 와 논리곱
 		  
-			   System.out.println("로그인 성공"); break;
-		   } else if(!"hong".equals(id) && !"1234".equals(pwd));
-			 cnt++;
-			 
-		 System.out.println(cnt+"회 실패하였습니다.");
-		 
-			
+			   {System.out.println("로그인 성공"); 
+			     break;
+			    }
+			}
+			System.out.println(++cnt +"회 실패하였습니다.");
+		}	
 		System.out.println("프로그램 종료");
 		
-		}
+		
 	}
 }

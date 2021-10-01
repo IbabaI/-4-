@@ -9,6 +9,8 @@ public class EunmWeekExam01 {
 		//열거타입 변수 선언
 		Week today =null;
 		//칼랜다타입의 변수 선언, 칼랜다타입 객체 생성(클래스명.getInstance()) 대입
+		
+		// 컴퓨터 시스템에 있는 달력 정보를 개체로 만들어진것 Calendar
 		Calendar cal = Calendar.getInstance();//칼랜다객체 생성
 		int week = cal.get(Calendar.DAY_OF_WEEK);//get(현재의 요일값 : Calendar.DAY_OF_Week)
 		System.out.println(week);

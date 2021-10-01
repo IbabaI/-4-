@@ -1,4 +1,4 @@
-package ch05_break;
+package ch06_break;
 
 import java.util.Scanner;
 
