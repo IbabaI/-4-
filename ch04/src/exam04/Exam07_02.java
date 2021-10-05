@@ -1,4 +1,4 @@
-package exam04_01;
+package exam04;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
