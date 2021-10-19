@@ -16,15 +16,15 @@ public class Ex08 {
 
 
 class A3 {
-	//1유형
+	//1유형 (매개변수o, 리턴타입o)
 	int add(int a1, int a2) {
 		return a1 +a2;
 	}
-	//1유형
+	//1유형(매개변수o, 리턴타입o)
 	double square(double d) {
 		return d*d;
 	}
-	//3유형
+	//3유형(매개변수o, 리턴타입x)
 	void multiply(int a1, int a2) {
 		System.out.printf("%d * %d = %d\n",a1, a2, a1*a2);
 	}

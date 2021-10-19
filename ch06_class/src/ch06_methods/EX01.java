@@ -17,9 +17,6 @@ public class EX01 {
 		t1.min=20; t1.max=30;
 		t1.sum();
 		System.out.println("гу╟Х: "+t1.sum);
-		
-	}
-
-
-	}
+   }
+}
 
